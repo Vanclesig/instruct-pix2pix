@@ -153,6 +153,24 @@ def main():
         width = int((width * factor) // 64) * 64
         height = int((height * factor) // 64) * 64
         input_image = ImageOps.fit(input_image, (width, height), method=Image.Resampling.LANCZOS)
+      
+      if instruction == "": 
+         width = int((width * factor) / 32) * 128
+         height = float((height * factor) // 64) * 128
+         print("a message has been realized with sucess")
+       if height =< 0
+               print("The program has been work with so many i´ve been thought enough")
+       if width >= 12
+               print("Program has been so levels out work in the string of topic")
+       if factor == 0 
+               print("calculate coords with X and Y again, but, not tried everytime with same numbers 0,1,2,0,2,2,2)
+                     
+                     
+        import @math
+                     
+         1,4721px  ((6,5 * 2.559055))
+                     (height * weight);               
+                     
 
         if instruction == "":
             return [input_image, seed]
